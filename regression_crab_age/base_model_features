@@ -1,0 +1,52 @@
+Model,Details,Scaler,Feature_selection,R_score (train),R_score (test),RMSE,MAE,5-Fold Cross Validation
+LinearRegression,,None,3,0.44885469931292543,0.45,2.376,1.664,0.555
+LinearRegression,,None,4,0.4503384956123434,0.452,2.372,1.661,0.555
+LinearRegression,,None,5,0.4836351047369367,0.485,2.3,1.598,0.555
+LinearRegression,,None,6,0.4842088357652069,0.486,2.298,1.598,0.555
+LinearRegression,,None,7,0.49806114463769635,0.499,2.268,1.571,0.555
+LinearRegression,,None,8,0.5494438108249211,0.555,2.137,1.483,0.555
+LinearRegression,,None,9,0.5496880844979493,0.555,2.137,1.482,0.555
+LinearRegression,,None,10,0.5496880844979493,0.555,2.137,1.482,0.555
+LinearRegression,,MinMaxScaler,3,0.44885469931292554,0.45,2.376,1.664,0.555
+LinearRegression,,MinMaxScaler,4,0.4503384956123435,0.452,2.372,1.661,0.555
+LinearRegression,,MinMaxScaler,5,0.4836351047369367,0.485,2.3,1.598,0.555
+LinearRegression,,MinMaxScaler,6,0.4842088357652069,0.486,2.298,1.598,0.555
+LinearRegression,,MinMaxScaler,7,0.49806114463769646,0.499,2.268,1.571,0.555
+LinearRegression,,MinMaxScaler,8,0.5494438108249211,0.555,2.137,1.483,0.555
+LinearRegression,,MinMaxScaler,9,0.5496880844979494,0.555,2.137,1.482,0.555
+LinearRegression,,MinMaxScaler,10,0.5496850551114048,0.555,2.137,1.482,0.555
+LinearRegression,,StandarScaler,3,0.44885469931292543,0.45,2.376,1.664,0.555
+LinearRegression,,StandarScaler,4,0.4503384956123435,0.452,2.372,1.661,0.555
+LinearRegression,,StandarScaler,5,0.4836351047369367,0.485,2.3,1.598,0.555
+LinearRegression,,StandarScaler,6,0.4842088357652069,0.486,2.298,1.598,0.555
+LinearRegression,,StandarScaler,7,0.49806114463769646,0.499,2.268,1.571,0.555
+LinearRegression,,StandarScaler,8,0.5494438108249211,0.555,2.137,1.483,0.555
+LinearRegression,,StandarScaler,9,0.5496880844979494,0.555,2.137,1.482,0.555
+LinearRegression,,StandarScaler,10,0.549685968782556,0.555,2.137,1.482,0.555
+GradientBoostingRegressor,None,None,8,0.5860807635956125,0.577,2.084,1.43,0.569
+GradientBoostingRegressor,None,None,9,0.5859788305517564,0.577,2.085,1.429,0.569
+GradientBoostingRegressor,None,None,10,0.5859783414658492,0.577,2.085,1.429,0.569
+GradientBoostingRegressor,None,MinMaxScaler,8,0.5860807635956125,0.577,2.084,1.43,0.569
+GradientBoostingRegressor,None,MinMaxScaler,9,0.5859788305517564,0.577,2.085,1.429,0.569
+GradientBoostingRegressor,None,MinMaxScaler,10,0.5859783414658492,0.577,2.085,1.429,0.569
+GradientBoostingRegressor,None,StandarScaler,8,0.5860807635956123,0.577,2.084,1.43,0.569
+GradientBoostingRegressor,None,StandarScaler,9,0.5859788305517564,0.577,2.085,1.429,0.569
+GradientBoostingRegressor,None,StandarScaler,10,0.5859783414658492,0.577,2.085,1.429,0.569
+Random Forest Regressor,None,None,8,0.9375739472516074,0.556,2.135,1.476,0.548
+Random Forest Regressor,None,None,9,0.9383924307502782,0.558,2.13,1.474,0.548
+Random Forest Regressor,None,None,10,0.9384147095925991,0.558,2.13,1.475,0.548
+Random Forest Regressor,None,MinMaxScaler,8,0.9375927839828865,0.556,2.135,1.476,0.548
+Random Forest Regressor,None,MinMaxScaler,9,0.9383939439171514,0.558,2.131,1.475,0.548
+Random Forest Regressor,None,MinMaxScaler,10,0.9384057183940622,0.558,2.131,1.475,0.548
+Random Forest Regressor,None,StandarScaler,8,0.9376011575558018,0.556,2.136,1.476,0.548
+Random Forest Regressor,None,StandarScaler,9,0.938415024975868,0.558,2.131,1.475,0.548
+Random Forest Regressor,None,StandarScaler,10,0.9384229733070625,0.557,2.131,1.475,0.548
+KNeighbors Regressor,None,None,8,0.6719389628466084,0.51,2.242,1.543,0.509
+KNeighbors Regressor,None,None,9,0.6700217689803974,0.511,2.241,1.545,0.509
+KNeighbors Regressor,None,None,10,0.6703306595590875,0.511,2.24,1.545,0.509
+KNeighbors Regressor,None,MinMaxScaler,8,0.6706561687334945,0.509,2.245,1.545,0.498
+KNeighbors Regressor,None,MinMaxScaler,9,0.6706564378605507,0.505,2.254,1.554,0.498
+KNeighbors Regressor,None,MinMaxScaler,10,0.6706564378605507,0.505,2.254,1.554,0.498
+KNeighbors Regressor,None,StandarScaler,8,0.6694770558187606,0.498,2.271,1.56,0.486
+KNeighbors Regressor,None,StandarScaler,9,0.6682156573066103,0.497,2.273,1.569,0.486
+KNeighbors Regressor,None,StandarScaler,10,0.6682011917273426,0.497,2.273,1.569,0.486
